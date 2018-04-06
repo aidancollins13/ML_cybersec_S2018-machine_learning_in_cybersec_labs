@@ -1,0 +1,10 @@
+calculate noise by calculations derivitave of log funciton for each pixel then multiplied by epsilon
+ devide epsilon values by 256 to make them valid because the pixels are scaled
+	compute gradient of correct class label (loss), you want to increase the distance from that label
+ 
+ FGSM does one perterbation
+ 
+ To defend add perterbed images to training data
+	iterate through every test image, and run FGSM to get a perterbed dataset and add the perterbed ones as well
+
+Intreaging properties of neural networks  -- Paper
